@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose readDependencies loading dependencies from D:\sublime-projects\first-ngapp\package.json
+5 verbose install where, deps [ 'D:\\sublime-projects\\first-ngapp',
+5 verbose install   [ 'grunt',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-connect',
+5 verbose install     'load-grunt-tasks' ] ]
+6 verbose install where, peers [ 'D:\\sublime-projects\\first-ngapp', [] ]
+7 verbose installManyTop reading for lifecycle D:\sublime-projects\first-ngapp\package.json
+8 info preinstall first-ngapp@1.0.0
+9 verbose readDependencies loading dependencies from D:\sublime-projects\first-ngapp\package.json
+10 silly cache add args [ 'grunt@^0.4.5', null ]
+11 verbose cache add spec grunt@^0.4.5
+12 silly cache add args [ 'grunt-concurrent@^1.0.0', null ]
+13 verbose cache add spec grunt-concurrent@^1.0.0
+14 silly cache add parsed spec { raw: 'grunt@^0.4.5',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'grunt',
+14 silly cache add   rawSpec: '^0.4.5',
+14 silly cache add   spec: '>=0.4.5 <0.5.0',
+14 silly cache add   type: 'range' }
+15 silly addNamed grunt@>=0.4.5 <0.5.0
+16 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for grunt
+17 silly addNameRange { name: 'grunt', range: '>=0.4.5 <0.5.0', hasData: false }
+18 silly mapToRegistry name grunt
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/grunt
+22 verbose addNameRange registry:https://registry.npmjs.org/grunt not in flight; fetching
+23 silly cache add parsed spec { raw: 'grunt-concurrent@^1.0.0',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'grunt-concurrent',
+23 silly cache add   rawSpec: '^1.0.0',
+23 silly cache add   spec: '>=1.0.0 <2.0.0',
+23 silly cache add   type: 'range' }
+24 silly addNamed grunt-concurrent@>=1.0.0 <2.0.0
+25 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for grunt-concurrent
+26 silly addNameRange { name: 'grunt-concurrent',
+26 silly addNameRange   range: '>=1.0.0 <2.0.0',
+26 silly addNameRange   hasData: false }
+27 silly mapToRegistry name grunt-concurrent
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+31 verbose addNameRange registry:https://registry.npmjs.org/grunt-concurrent not in flight; fetching
+32 silly cache add args [ 'grunt-contrib-connect@^0.10.1', null ]
+33 verbose cache add spec grunt-contrib-connect@^0.10.1
+34 silly cache add parsed spec { raw: 'grunt-contrib-connect@^0.10.1',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'grunt-contrib-connect',
+34 silly cache add   rawSpec: '^0.10.1',
+34 silly cache add   spec: '>=0.10.1 <0.11.0',
+34 silly cache add   type: 'range' }
+35 silly addNamed grunt-contrib-connect@>=0.10.1 <0.11.0
+36 verbose addNamed ">=0.10.1 <0.11.0" is a valid semver range for grunt-contrib-connect
+37 silly addNameRange { name: 'grunt-contrib-connect',
+37 silly addNameRange   range: '>=0.10.1 <0.11.0',
+37 silly addNameRange   hasData: false }
+38 silly mapToRegistry name grunt-contrib-connect
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+42 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-connect not in flight; fetching
+43 silly cache add args [ 'load-grunt-tasks@^3.2.0', null ]
+44 verbose cache add spec load-grunt-tasks@^3.2.0
+45 silly cache add parsed spec { raw: 'load-grunt-tasks@^3.2.0',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'load-grunt-tasks',
+45 silly cache add   rawSpec: '^3.2.0',
+45 silly cache add   spec: '>=3.2.0 <4.0.0',
+45 silly cache add   type: 'range' }
+46 silly addNamed load-grunt-tasks@>=3.2.0 <4.0.0
+47 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for load-grunt-tasks
+48 silly addNameRange { name: 'load-grunt-tasks',
+48 silly addNameRange   range: '>=3.2.0 <4.0.0',
+48 silly addNameRange   hasData: false }
+49 silly mapToRegistry name load-grunt-tasks
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+53 verbose addNameRange registry:https://registry.npmjs.org/load-grunt-tasks not in flight; fetching
+54 verbose request uri https://registry.npmjs.org/grunt
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 11:59:46 AM
+57 verbose request id cfe5c736d176cf23
+58 http request GET https://registry.npmjs.org/grunt
+59 verbose request uri https://registry.npmjs.org/grunt-concurrent
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 11:59:46 AM
+62 http request GET https://registry.npmjs.org/grunt-concurrent
+63 verbose request uri https://registry.npmjs.org/grunt-contrib-connect
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 11:59:46 AM
+66 http request GET https://registry.npmjs.org/grunt-contrib-connect
+67 verbose request uri https://registry.npmjs.org/load-grunt-tasks
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 11:59:46 AM
+70 http request GET https://registry.npmjs.org/load-grunt-tasks
+71 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+72 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+73 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+74 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+75 info attempt registry request try #2 at 11:59:56 AM
+76 http request GET https://registry.npmjs.org/grunt
+77 info attempt registry request try #2 at 11:59:56 AM
+78 http request GET https://registry.npmjs.org/load-grunt-tasks
+79 info attempt registry request try #2 at 11:59:56 AM
+80 http request GET https://registry.npmjs.org/grunt-concurrent
+81 info attempt registry request try #2 at 11:59:56 AM
+82 http request GET https://registry.npmjs.org/grunt-contrib-connect
+83 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+84 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+85 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+86 info retry will retry, error on last attempt: Error: unable to verify the first certificate
+87 info attempt registry request try #3 at 12:00:56 PM
+88 http request GET https://registry.npmjs.org/grunt
+89 info attempt registry request try #3 at 12:00:56 PM
+90 http request GET https://registry.npmjs.org/grunt-concurrent
+91 info attempt registry request try #3 at 12:00:56 PM
+92 http request GET https://registry.npmjs.org/grunt-contrib-connect
+93 info attempt registry request try #3 at 12:00:56 PM
+94 http request GET https://registry.npmjs.org/load-grunt-tasks
+95 verbose stack Error: unable to verify the first certificate
+95 verbose stack     at Error (native)
+95 verbose stack     at TLSSocket.<anonymous> (_tls_wrap.js:929:36)
+95 verbose stack     at TLSSocket.emit (events.js:104:17)
+95 verbose stack     at TLSSocket._finishInit (_tls_wrap.js:460:8)
+96 verbose cwd D:\sublime-projects\first-ngapp
+97 error Windows_NT 6.1.7601
+98 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+99 error node v0.12.7
+100 error npm  v2.11.3
+101 error code UNABLE_TO_VERIFY_LEAF_SIGNATURE
+102 error unable to verify the first certificate
+103 error If you need help, you may report this error at:
+103 error     <https://github.com/npm/npm/issues>
+104 verbose exit [ 1, true ]
