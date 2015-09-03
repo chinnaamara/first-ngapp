@@ -76,3 +76,15 @@ app.service('dialogModal', ['$modal', function ($modal) {
         return modalInstance;
     }
 }]);
+
+app.filter('hasId', function () {
+    return function (items, id) {
+        var filtered = [];
+        angular.forEach(items, function (item) {
+            if (item.PId === null && item.CId !== null) {
+                filtered.push(item);
+            }
+        });
+        return filtered;
+    };
+});

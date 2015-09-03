@@ -11,5 +11,11 @@
                 data-ng-click="confirmClick() && deleteItem()" confirm-click>
             <span class="icon"><i class="fa fa-user"></i></span><span class="text">Managers</span>
         </button>
+        <div class="panel-body padding0">
+            <select multiple class="form-control mselect-height" name="products" data-ng-model="products"
+                    data-ng-options="p.Name for p in productsList | hasId | orderBy:'Name' track by p.Id">
+                <option value=" "></option>
+            </select>
+        </div>
 	</body>
 </html>
