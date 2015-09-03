@@ -2,6 +2,10 @@ var app = angular.module('FirstNgApp', []);
 
 app.controler('SampleCTRL', function($scope){
 	$scope.name = 'chinna';
+
+	$scope.deleteItem = function () {
+		// delete here
+	}
 });
 
 app.directive('confirmClick', ['$q', 'dialogModal', function ($q, dialogModal) {
