@@ -5,7 +5,13 @@ app.controler('SampleCTRL', function($scope){
 
 	$scope.deleteItem = function () {
 		// delete here
-	}
+	};
+
+    $scope.filterValue = function($event){
+        if(isNaN(String.fromCharCode($event.keyCode))){
+            $event.preventDefault();
+        }
+    };
 });
 
 app.directive('confirmClick', ['$q', 'dialogModal', function ($q, dialogModal) {
@@ -76,6 +82,8 @@ app.service('dialogModal', ['$modal', function ($modal) {
         return modalInstance;
     }
 }]);
+
+// filter here
 
 app.filter('hasId', function () {
     return function (items, id) {
